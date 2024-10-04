@@ -1,8 +1,8 @@
 Internship Tasks Overview: Landing Page for Rise of the Tomb Raider, News App, and Toy Shop Web Application
 
 This repository contains three projects developed during my internship:
-Gaming Website Landing Page
-News App
+Gaming Website Landing Page, 
+News App, and 
 CRUD Application-Oriented Toys E-commerce
 
 ------------------------------------------
@@ -66,6 +66,7 @@ Server: Apache
 
 Conclusion
 Delivers a robust shopping experience and effective product management. Future improvements may include payment gateway integration.
+
 ------------------------------------------
 
 I welcome any feedback on these projects to help me enhance my skills and improve future work. Your insights and suggestions are greatly appreciated!
