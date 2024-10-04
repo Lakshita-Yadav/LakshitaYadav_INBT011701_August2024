@@ -4,6 +4,7 @@ This repository contains three projects developed during my internship:
 Gaming Website Landing Page
 News App
 CRUD Application-Oriented Toys E-commerce
+
 ------------------------------------------
 
 Task 1: Gaming Website Landing Page
@@ -24,6 +25,7 @@ JavaScript: Form validation.
 
 Conclusion
 Enhances user experience through engaging design and informative content. Feedback is welcome!
+
 ------------------------------------------
 
 Task 2: News App
@@ -43,6 +45,7 @@ JavaScript: API integration.
 
 Conclusion
 Provides users with easy access to news articles. Feedback for enhancements is encouraged!
+
 ------------------------------------------
 
 Major Project: CRUD Application-Oriented Toys E-commerce
