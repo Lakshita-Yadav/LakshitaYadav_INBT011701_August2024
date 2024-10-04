@@ -1,0 +1,155 @@
+body {
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+  }
+  
+  header {
+    background-color: transparent;
+    padding: 25px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    margin: 10px 50px;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    color:rgb(192, 192, 192);
+    text-decoration: none;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+  }
+  
+  section {
+    padding: 100px 100px;
+    height: 100vh;
+  }
+  
+  .hidden-content {
+    display:none;
+    position:initial;
+    background-color: transparent;
+    width:auto;
+}
+
+.subheading:hover + .hidden-content {
+    display:block;
+    padding: right 40px left 40px;
+  
+  }
+  .review {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #hero {
+    background-image:url('0.1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color: #ffccac;
+    padding-top: 10%;
+    text-align: center;
+  }
+
+  #game-bio, #Features, #testimonials, #contact, #newsletter {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-blend-mode: hue;
+  }
+  
+  #game-bio{
+    background-image: url('1.jpg');
+    text-align: center;
+    padding-left: 50%;
+    line-height:2 ;
+    color:white;
+  }
+  #Features{
+    background-image: url('2.jpg');
+    color: rgb(190, 190, 190);
+  }
+  #Features ul li{
+    line-height: 5;
+  }
+  #Features ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  #testimonials{
+    background-image: url('3.jpg');
+    color:black;
+    line-break: auto;
+  }
+ 
+  #contact{
+    background-image: url('5.jpg');
+    text-align: centre;
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right: 50%;
+    line-height: 3;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
+
+  }
+  #newsletter{
+    background-image: url('4.jpg');
+    color:lightslategrey;
+  }
+  footer {
+    background-color: transparent;
+    color: #333;
+    text-align: center;
+    bottom: 0;
+    position: relative;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  form {
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    background-color:rgba(255, 255, 255, 0.2) ;
+    color: rgb(216, 200, 191);
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  
